@@ -1,4 +1,4 @@
-import 'package:drop_down_list/model/selected_list_item.dart';
+import 'package:drop_down_list_pro/model/selected_list_item.dart';
 import 'package:flutter/material.dart';
 
 import 'app_text_field.dart';
@@ -55,6 +55,8 @@ class DropDown {
   /// by default it is [False].
   final bool useRootNavigator;
 
+  final TextStyle? listItemStyle;
+
   DropDown({
     Key? key,
     required this.data,
@@ -70,10 +72,12 @@ class DropDown {
     this.dropDownBackgroundColor = Colors.transparent,
     this.bottomSheetListener,
     this.useRootNavigator = false,
+    this.listItemStyle
   });
 }
 
 class DropDownState {
+
   DropDown dropDown;
 
   DropDownState(this.dropDown);
@@ -102,9 +106,13 @@ class DropDownState {
 
 /// This is main class to display the bottom sheet body.
 class MainBody extends StatefulWidget {
+
   final DropDown dropDown;
 
-  const MainBody({required this.dropDown, Key? key}) : super(key: key);
+  const MainBody({
+    Key? key,
+    required this.dropDown
+  }) : super(key: key);
 
   @override
   State<MainBody> createState() => _MainBodyState();
@@ -194,9 +202,7 @@ class _MainBodyState extends State<MainBody> {
                           padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
                           child: ListTile(
                             title: widget.dropDown.listItemBuilder?.call(mainList[index]) ??
-                                Text(
-                                  mainList[index].name,
-                                ),
+                                Text(mainList[index].name, style: widget.dropDown.listItemStyle),
                             trailing: widget.dropDown.enableMultipleSelection
                                 ? GestureDetector(
                                     onTap: () {

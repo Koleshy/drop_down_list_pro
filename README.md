@@ -10,10 +10,10 @@ The following examples are extracted from the example project available in the r
 # Samples of Dropdown list with choices
 
 ## Dropdown Multiple Selection
-![drop-down-list](https://github.com/Mindinventory/drop_down_list/blob/main/assets/drop_down_multiple_selection.gif)
+![drop-down-list](https://github.com/Koleshy/drop_down_list_pro/blob/main/assets/drop_down_multiple_selection.gif)
 
 ## Dropdown Single Selection
-![drop-down-list](https://github.com/Mindinventory/drop_down_list/blob/main/assets/drop_down_single_selection.gif)
+![drop-down-list](https://github.com/Koleshy/drop_down_list_pro/blob/main/assets/drop_down_single_selection.gif)
 
 # How to Use
 ```dart
@@ -91,8 +91,4 @@ This property takes bool value as a parameter. [isDismissible] Specifies whether
 
 # LICENSE!
 
-Dropdown list is [MIT-licensed](https://github.com/Mindinventory/drop_down_list/blob/main/LICENSE "MIT-licensed").
-
-# Let us know!
-
-We’d be really happy if you send us links to your projects where you use our component. Just send an email to sales@mindinventory.com and do let us know if you have any questions or suggestion regarding our work.
+Dropdown list is [MIT-licensed](https://github.com/Koleshy/drop_down_list_pro/blob/main/LICENSE "MIT-licensed").
