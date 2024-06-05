@@ -4,6 +4,13 @@ Highly versatile Widget to search through a single or multiple choices from bott
 # Platforms
 This plugin has been successfully tested on iOS, Android & web.
 
+[![pub.dev](https://img.shields.io/pub/v/drop_down_list_pro.svg?style=flat?logo=dart)](https://pub.dev/packages/drop_down_list_pro)
+[![likes](https://img.shields.io/pub/likes/drop_down_list_pro)](https://pub.dev/packages/drop_down_list_pro/score)
+[![popularity](https://img.shields.io/pub/popularity/drop_down_list_pro)](https://pub.dev/packages/drop_down_list_pro/score)
+[![pub points](https://img.shields.io/pub/points/drop_down_list_pro)](https://pub.dev/packages/drop_down_list_pro/score)
+
+[![buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy-me-a-beer&emoji=🍺&slug=koleshy&button_colour=FF8838&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=ffffff')](https://www.buymeacoffee.com/koleshy)
+
 # Examples
 The following examples are extracted from the example project available in the repository. More examples are available in this project.
 
